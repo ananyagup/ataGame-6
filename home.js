@@ -95,6 +95,7 @@ function charClick(char) {
     sessionStorage.setItem("character", char);
   } else {
     console.log("need to add to inventory", char);
+    addChar(char)
   }
 }
 
